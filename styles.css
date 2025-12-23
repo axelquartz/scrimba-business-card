@@ -1,29 +1,35 @@
 body {
-    margin: 20px;
-    /*
+  margin: 20px;
+  /*
     Challenge:
     Find a web safe font you like, and add it 
     to your card.
     */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: futura, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .avatar {
-    width: 150px;
+  width: 150px;
+  border-radius: 32px;
+}
+
+.avatar:hover {
+  border: solid 4px darkblue;
 }
 
 .card {
-    width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    background: #ddebf8;
-    color: #2b2839;
-    border-bottom: 6px solid #d8cefe;
-        
-    /*
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #ffc3af;
+  color: #2b2839;
+  border-bottom: 6px solid #ffa4a4;
+  border-radius: 32px;
+
+  /*
     Challenge:
     Find a color palette you like on Coolors.co
     and use it in your business card.
@@ -31,7 +37,7 @@ body {
 }
 
 .border-blue {
-    border: 1px dotted blue;
+  border: 1px dotted blue;
 }
 
 /*
