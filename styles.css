@@ -36,6 +36,10 @@ body {
      */
 }
 
+.card:hover {
+  border: solid 6px rgb(92, 22, 22);
+}
+
 .border-blue {
   border: 1px dotted blue;
 }
